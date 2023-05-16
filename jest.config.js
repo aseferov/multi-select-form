@@ -6,4 +6,5 @@ module.exports = {
   transform: {
     '^.+\\.(js|jsx|mjs|ts|tsx)$': '<rootDir>/node_modules/babel-jest',
   },
+  transformIgnorePatterns: ['node_modules/(?!react-native)/'],
 }
